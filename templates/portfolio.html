@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<section>
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/design.png') }}" alt="Design Project">
+            <p>Graphic & Brand Design</p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/content.png') }}" alt="Content Writing">
+            <p>Content & Copywriting</p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/video.png') }}" alt="Video Editing">
+            <p>Video Editing & Media</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
