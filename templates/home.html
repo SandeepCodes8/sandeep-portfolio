@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<section>
+    <h2>Welcome to My Creative Portfolio</h2>
+    <p>Hi, I'm Sandeep Prajapati, your creative partner in design and media.
+Whether you're looking to elevate your brand through stunning visuals, engaging content, or innovative storytelling — I help individuals and businesses stand out..</p>
+<p>What I do:
+🎨 Design • 📝 Content Writing • 📸 Business Photography
+🎥 Video Editing • 💬 Social Media Strategy • ✨ Creative Consultancy</p>
+    <img src="{{ url_for('static', filename='images/home-banner.png') }}" alt="Creative work" class="hero-img">
+</section>
+{% endblock %}
